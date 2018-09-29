@@ -1,4 +1,7 @@
 .vs/**
 packages/**
+Anagrams/bin/**
+Anagrams/obj/**
+StringReversal/obj/**
 StringReversal/bin/**
 StringReversal/obj/**
