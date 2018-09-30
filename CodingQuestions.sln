@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerReversal", "IntegerReversal\IntegerReversal.csproj", "{615333AF-D831-4657-A97C-FECE131B646C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromes", "Palindromes\Palindromes.csproj", "{4342105A-07E2-4BFC-90F7-4BFC43BBC23F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{615333AF-D831-4657-A97C-FECE131B646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615333AF-D831-4657-A97C-FECE131B646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615333AF-D831-4657-A97C-FECE131B646C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4342105A-07E2-4BFC-90F7-4BFC43BBC23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4342105A-07E2-4BFC-90F7-4BFC43BBC23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4342105A-07E2-4BFC-90F7-4BFC43BBC23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4342105A-07E2-4BFC-90F7-4BFC43BBC23F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
