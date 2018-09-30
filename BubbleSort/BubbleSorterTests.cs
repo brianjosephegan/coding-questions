@@ -36,7 +36,7 @@ namespace BubbleSort
         /// <summary>
         /// Checks that sequence of numbers can be sorted correctly.
         /// </summary>
-        /// <param name="expected">Array sequence of integers.</param>
+        /// <param name="expected">Expected array of integers.</param>
         /// <param name="input">Array of integers to sort.</param>
         [TestCase(new int[] {}, new int[] {})]
         [TestCase(new int[] { -1 }, new int[] { -1 })]
