@@ -2,6 +2,7 @@
 packages/**
 Anagrams/bin/**
 Anagrams/obj/**
+BubbleSort/bin/**
+BubbleSort/obj/**
 StringReversal/obj/**
 StringReversal/bin/**
-StringReversal/obj/**
