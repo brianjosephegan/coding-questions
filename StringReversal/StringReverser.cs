@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace StringReversal
 {
+    /// <summary>
+    /// Class to reverse a string.
+    /// </summary>
     public class StringReverser
     {
+        /// <summary>
+        /// Reverses the specified string.
+        /// </summary>
+        /// <param name="input">String to reverse</param>
+        /// <returns>The reversed string</returns>
         public string Reverse(string input)
         {
             if (input == null)

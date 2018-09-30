@@ -7,15 +7,24 @@ using NUnit.Framework;
 
 namespace Anagrams
 {
+    /// <summary>
+    /// Tests for AnagramDetector class.
+    /// </summary>
     [TestFixture]
     class AnagramDetectorTests
     {
+        /// <summary>
+        /// Setup for each test.
+        /// </summary>
         [SetUp]
         public void SetUp()
         {
             detector = new AnagramDetector();
         }
 
+        /// <summary>
+        /// Checks that null is handled correctly as the first input.
+        /// </summary>
         [Test]
         public void Null()
         {
@@ -25,6 +34,9 @@ namespace Anagrams
             StringAssert.Contains("input", ex.ParamName);
         }
 
+        /// <summary>
+        /// Checks that null is handled correctly as the other input.
+        /// </summary>
         [Test]
         public void OtherNull()
         {
@@ -34,6 +46,9 @@ namespace Anagrams
             StringAssert.Contains("otherInput", ex.ParamName);
         }
 
+        /// <summary>
+        /// Checks that the empty string is handled correctly as the first input.
+        /// </summary>
         [Test]
         public void Empty()
         {
@@ -43,6 +58,9 @@ namespace Anagrams
             StringAssert.Contains("input", ex.ParamName);
         }
 
+        /// <summary>
+        /// Checks that the empty string is handled correctly as the other input.
+        /// </summary>
         [Test]
         public void OtherEmpty()
         {
@@ -52,6 +70,11 @@ namespace Anagrams
             StringAssert.Contains("otherInput", ex.ParamName);
         }
 
+        /// <summary>
+        /// Positive test cases where the inputs are anagrams of each other.
+        /// </summary>
+        /// <param name="input">String to check if it is an anagram.</param>
+        /// <param name="otherInput">Other string to check if it is an anagram.</param>
         [TestCase("hello", "llohe")]
         [TestCase("Whoa! Hi!", "Hi! Whoa!")]
         public void Positive(string input, string otherInput)
@@ -59,6 +82,11 @@ namespace Anagrams
             Assert.IsTrue(detector.AreAnagrams(input, otherInput));
         }
 
+        /// <summary>
+        /// Positive test cases where the inputs are not anagrams of each other.
+        /// </summary>
+        /// <param name="input">String to check if it is an anagram.</param>
+        /// <param name="otherInput">Other string to check if it is an anagram.</param>
         [TestCase("One One", "Two two two")]
         [TestCase("One one", "One one c")]
         [TestCase("A tree, a life, a bench", "A tree, a fence, a yard")]
@@ -67,6 +95,9 @@ namespace Anagrams
             Assert.IsFalse(detector.AreAnagrams(input, otherInput));
         }
 
+        /// <summary>
+        /// Anagram detector.
+        /// </summary>
         private AnagramDetector detector;
     }
 }
