@@ -8,6 +8,8 @@ FizzBuzz/bin/**
 FizzBuzz/obj/**
 IntegerReversal/obj/**
 IntegerReversal/bin/**
+MaxChars/obj/**
+MaxChars/bin/**
 MergeSort/bin/**
 MergeSort/obj/**
 Palindromes/obj/**
