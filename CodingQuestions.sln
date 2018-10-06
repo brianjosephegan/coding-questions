@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\Merg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxChars", "MaxChars\MaxChars.csproj", "{48C3789A-B7E8-47FD-971B-C8E512FB1F57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{444AD594-18E7-47BC-A9A6-60953586A292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{48C3789A-B7E8-47FD-971B-C8E512FB1F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C3789A-B7E8-47FD-971B-C8E512FB1F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C3789A-B7E8-47FD-971B-C8E512FB1F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444AD594-18E7-47BC-A9A6-60953586A292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444AD594-18E7-47BC-A9A6-60953586A292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444AD594-18E7-47BC-A9A6-60953586A292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444AD594-18E7-47BC-A9A6-60953586A292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

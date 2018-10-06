@@ -41,7 +41,6 @@ namespace FibonacciSeries
             }
         }
 
-            private readonly List<int> results = new List<int>();
-        }
+        private readonly int[] results = new int[1000];
     }
 }
