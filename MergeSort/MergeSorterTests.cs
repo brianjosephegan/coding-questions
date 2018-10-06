@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace SelectionSort
+namespace MergeSort
 {
     /// <summary>
-    /// Tests for SelectionSorter class.
+    /// Tests for MergeSorter class.
     /// </summary>
     [TestFixture]
-    class SelectionSorterTests
+    class MergeSorterTests
     {
         /// <summary>
         /// Setup for each test.
@@ -19,7 +19,7 @@ namespace SelectionSort
         [SetUp]
         public void SetUp()
         {
-            sorter = new SelectionSorter();
+            sorter = new MergeSorter();
         }
 
         /// <summary>
@@ -48,8 +48,8 @@ namespace SelectionSort
         }
 
         /// <summary>
-        /// Selection sorter.
+        /// Merge sorter.
         /// </summary>
-        private SelectionSorter sorter;
+        private MergeSorter sorter;
     }
 }
