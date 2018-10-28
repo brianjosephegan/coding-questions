@@ -18,6 +18,8 @@ MergeSort/bin/**
 MergeSort/obj/**
 Palindromes/obj/**
 Palindromes/bin/**
+PrintingSteps/bin/**
+PrintingSteps/obj/**
 SelectionSort/bin/**
 SelectionSort/obj/**
 SpiralMatrices/bin/**
