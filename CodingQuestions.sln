@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "Fibonacc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrices", "SpiralMatrices\SpiralMatrices.csproj", "{43A6EC1C-F6C6-4B8A-B363-5D9518229EE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingVowels", "FindingVowels\FindingVowels.csproj", "{FB93A41F-CEB8-4A62-AAEE-7267C747A992}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{43A6EC1C-F6C6-4B8A-B363-5D9518229EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A6EC1C-F6C6-4B8A-B363-5D9518229EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A6EC1C-F6C6-4B8A-B363-5D9518229EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
