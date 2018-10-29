@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace PrintingSteps
+namespace PrintingPyramids
 {
     /// <summary>
-    /// Tests for StepPrinter class.
+    /// Tests for PyramidPrinter class.
     /// </summary>
     [TestFixture]
-    class StepPrinterTests
+    class PyramidPrinterTests
     {
         /// <summary>
         /// Setup for each test.
@@ -19,7 +19,7 @@ namespace PrintingSteps
         [SetUp]
         public void SetUp()
         {
-            printer = new StepPrinter();
+            printer = new PyramidPrinter();
         }
 
         /// <summary>
@@ -46,7 +46,7 @@ namespace PrintingSteps
         /// <summary>
         /// Checks that positive numbers are handled correctly.
         /// </summary>
-        /// <param name="input">Number of steps to print.</param>
+        /// <param name="input">Number of layers to print.</param>
         [TestCase(1)]
         [TestCase(2)]
         [TestCase(3)]
@@ -58,8 +58,8 @@ namespace PrintingSteps
         }
 
         /// <summary>
-        /// Step printer.
+        /// Pyram
         /// </summary>
-        private StepPrinter printer;
+        private PyramidPrinter printer;
     }
 }

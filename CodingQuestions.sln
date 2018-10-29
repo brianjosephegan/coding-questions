@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrices", "SpiralMat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingVowels", "FindingVowels\FindingVowels.csproj", "{FB93A41F-CEB8-4A62-AAEE-7267C747A992}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingSteps", "PrintingSteps\PrintingSteps.csproj", "{05A71B82-DD46-4503-BCDB-55FDC4EF45F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingPyramids", "PrintingPyramids\PrintingPyramids.csproj", "{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB93A41F-CEB8-4A62-AAEE-7267C747A992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A71B82-DD46-4503-BCDB-55FDC4EF45F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A71B82-DD46-4503-BCDB-55FDC4EF45F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A71B82-DD46-4503-BCDB-55FDC4EF45F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A71B82-DD46-4503-BCDB-55FDC4EF45F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
