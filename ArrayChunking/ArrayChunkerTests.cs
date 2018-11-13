@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace ArrayChunking
 {
     /// <summary>
-    /// Tests for BubbleSorter class.
+    /// Tests for ArrayChunker class.
     /// </summary>
     [TestFixture]
     class ArrayChunkerTests

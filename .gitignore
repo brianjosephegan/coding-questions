@@ -24,6 +24,8 @@ PrintingPyramids/bin/**
 PrintingPyramids/obj/**
 PrintingSteps/bin/**
 PrintingSteps/obj/**
+Queues/bin/**
+Queues/obj/**
 SelectionSort/bin/**
 SelectionSort/obj/**
 SpiralMatrices/bin/**

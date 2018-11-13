@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingPyramids", "Printin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayChunking", "ArrayChunking\ArrayChunking.csproj", "{484895B8-3EA0-4A1E-8F29-D831230AA4B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queues", "Queues\Queues.csproj", "{D262875A-0BC5-4F17-B3B8-6E39678B6A68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D262875A-0BC5-4F17-B3B8-6E39678B6A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D262875A-0BC5-4F17-B3B8-6E39678B6A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D262875A-0BC5-4F17-B3B8-6E39678B6A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D262875A-0BC5-4F17-B3B8-6E39678B6A68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
