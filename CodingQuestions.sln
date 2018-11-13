@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingSteps", "PrintingSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingPyramids", "PrintingPyramids\PrintingPyramids.csproj", "{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayChunking", "ArrayChunking\ArrayChunking.csproj", "{484895B8-3EA0-4A1E-8F29-D831230AA4B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3EEEF07-0B7E-4BEC-8A7F-D1EC453FC828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484895B8-3EA0-4A1E-8F29-D831230AA4B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

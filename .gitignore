@@ -2,6 +2,8 @@
 packages/**
 Anagrams/bin/**
 Anagrams/obj/**
+ArrayChunking/bin/**
+ArrayChunking/obj/**
 BubbleSort/bin/**
 BubbleSort/obj/**
 FibonacciSeries/bin/**

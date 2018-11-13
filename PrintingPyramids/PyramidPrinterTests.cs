@@ -58,7 +58,7 @@ namespace PrintingPyramids
         }
 
         /// <summary>
-        /// Pyram
+        /// Pyramid printer.
         /// </summary>
         private PyramidPrinter printer;
     }
