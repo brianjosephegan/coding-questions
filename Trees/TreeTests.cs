@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace Trees
 {
     /// <summary>
-    /// Tests for the Stack class.
+    /// Tests for the Tree class.
     /// </summary>
     [TestFixture]
     class TreeTests

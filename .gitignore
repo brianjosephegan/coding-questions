@@ -28,6 +28,8 @@ Queues/bin/**
 Queues/obj/**
 SelectionSort/bin/**
 SelectionSort/obj/**
+SentenceCapitalization/bin/**
+SentenceCapitalization/obj/**
 SpiralMatrices/bin/**
 SpiralMatrices/obj/**
 Stacks/bin/**
