@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queues", "Queues\Queues.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks", "Stacks\Stacks.csproj", "{8A046182-076E-421B-9748-DDA4875EA9BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{67BFF194-5177-4695-9A86-365D16076584}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{8A046182-076E-421B-9748-DDA4875EA9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A046182-076E-421B-9748-DDA4875EA9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A046182-076E-421B-9748-DDA4875EA9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BFF194-5177-4695-9A86-365D16076584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BFF194-5177-4695-9A86-365D16076584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BFF194-5177-4695-9A86-365D16076584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BFF194-5177-4695-9A86-365D16076584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
