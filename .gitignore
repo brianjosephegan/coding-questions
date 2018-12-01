@@ -26,6 +26,8 @@ PrintingSteps/bin/**
 PrintingSteps/obj/**
 Queues/bin/**
 Queues/obj/**
+QueueWeave/bin/**
+QueueWeave/obj/**
 SelectionSort/bin/**
 SelectionSort/obj/**
 SentenceCapitalization/bin/**

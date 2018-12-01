@@ -9,7 +9,7 @@ namespace Queues
     /// <summary>
     /// Class to implement a queue.
     /// </summary>
-    public class Queue<T>
+    public class Queue
     {
         /// <summary>
         /// Constructor.
@@ -17,14 +17,14 @@ namespace Queues
         public Queue()
         {
             count = 0;
-            items = new T[2];
+            items = new object[2];
         }
 
         /// <summary>
         /// Peeks the item in the front of the queue.
         /// </summary>
         /// <returns>The item at the front of the queue.</returns>
-        public T Peek()
+        public object Peek()
         {
             if (count <= 0)
             {
@@ -38,11 +38,11 @@ namespace Queues
         /// Adds the specified item to the back of the queue.
         /// </summary>
         /// <param name="item">Item to add.</param>
-        public void Add(T item)
+        public void Add(object item)
         {
             if (count >= items.Length)
             {
-                T[] newItems = new T[items.Length * 2];
+                object[] newItems = new object[items.Length * 2];
                 for (int i = 0; i < items.Length; i++)
                 {
                     newItems[i] = items[i];
@@ -57,14 +57,14 @@ namespace Queues
         /// Removes the item at the front of the queue.
         /// </summary>
         /// <returns>The item at the front of the queue.</returns>
-        public T Remove()
+        public object Remove()
         {
             if (count <= 0)
             {
                 throw new InvalidOperationException("Queue is empty");
             }
 
-            T item = items[0];
+            object item = items[0];
             for (int i = 1; i < items.Length; i++)
             {
                 items[i - 1] = items[i];
@@ -81,6 +81,6 @@ namespace Queues
         /// <summary>
         /// Array to store items in the queue.
         /// </summary>
-        private T[] items;
+        private object[] items;
     }
 }

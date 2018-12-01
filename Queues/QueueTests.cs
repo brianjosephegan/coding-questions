@@ -19,7 +19,7 @@ namespace Queues
         [SetUp]
         public void SetUp()
         {
-            queue = new Queue<int>();
+            queue = new Queue();
         }
 
         /// <summary>
@@ -75,6 +75,6 @@ namespace Queues
         /// <summary>
         /// Queue.
         /// </summary>
-        private Queue<int> queue;
+        private Queue queue;
     }
 }

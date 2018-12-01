@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceCapitalization", "SentenceCapitalization\SentenceCapitalization.csproj", "{C7938781-FCFE-47C9-806D-AEFFD3E1AF8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueWeave", "QueueWeave\QueueWeave.csproj", "{0BD53702-91B3-4782-A966-3A310D613A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{C7938781-FCFE-47C9-806D-AEFFD3E1AF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7938781-FCFE-47C9-806D-AEFFD3E1AF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7938781-FCFE-47C9-806D-AEFFD3E1AF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD53702-91B3-4782-A966-3A310D613A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD53702-91B3-4782-A966-3A310D613A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD53702-91B3-4782-A966-3A310D613A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD53702-91B3-4782-A966-3A310D613A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

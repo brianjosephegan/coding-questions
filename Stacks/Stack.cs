@@ -9,7 +9,7 @@ namespace Stacks
     /// <summary>
     /// Class to implement a stack.
     /// </summary>
-    public class Stack<T>
+    public class Stack
     {
         /// <summary>
         /// Constructor.
@@ -17,18 +17,18 @@ namespace Stacks
         public Stack()
         {
             top = -1;
-            items = new T[2];
+            items = new object[2];
         }
 
         /// <summary>
         /// Pushes the specified item on to the top of the stack.
         /// </summary>
         /// <param name="item">Item to push.</param>
-        public void Push(T item)
+        public void Push(object item)
         {
             if (top + 1 == items.Length)
             {
-                T[] newItems = new T[items.Length * 2];
+                object[] newItems = new object[items.Length * 2];
                 for (int i = 0; i < items.Length; i++)
                 {
                     newItems[i] = items[i];
@@ -43,7 +43,7 @@ namespace Stacks
         /// Removes the item at the top of the stack.
         /// </summary>
         /// <returns>Item at the top of the stack.</returns>
-        public T Pop()
+        public object Pop()
         {
             if (top < 0)
             {
@@ -57,7 +57,7 @@ namespace Stacks
         /// Peeks the item at the top of the stack.
         /// </summary>
         /// <returns>Item at the top of the stack.</returns>
-        public T Peek()
+        public object Peek()
         {
             if (top < 0)
             {
@@ -75,6 +75,6 @@ namespace Stacks
         /// <summary>
         /// Array to store the items in the stack.
         /// </summary>
-        private T[] items;
+        private object[] items;
     }
 }

@@ -19,7 +19,7 @@ namespace Stacks
         [SetUp]
         public void SetUp()
         {
-            stack = new Stack<int>();
+            stack = new Stack();
         }
 
         /// <summary>
@@ -88,6 +88,6 @@ namespace Stacks
         /// <summary>
         /// Stack.
         /// </summary>
-        private Stack<int> stack;
+        private Stack stack;
     }
 }

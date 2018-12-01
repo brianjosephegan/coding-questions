@@ -19,7 +19,7 @@ namespace Trees
         [SetUp]
         public void SetUp()
         {
-            tree = new Tree<string>();
+            tree = new Tree();
         }
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace Trees
         [Test]
         public void EmptyNode()
         {
-            Tree<string>.Node<string> node = new Tree<string>.Node<string>("a");
+            Tree.Node node = new Tree.Node("a");
 
             Assert.AreEqual("a", node.Data);
             Assert.AreEqual(0, node.Children.Count);
@@ -40,7 +40,7 @@ namespace Trees
         [Test]
         public void AddNode()
         {
-            Tree<string>.Node<string> node = new Tree<string>.Node<string>("a");
+            Tree.Node node = new Tree.Node("a");
             node.Add("b");
 
             Assert.AreEqual(1, node.Children.Count);
@@ -52,8 +52,7 @@ namespace Trees
         [Test]
         public void RemoveNode()
         {
-
-            Tree<string>.Node<string> node = new Tree<string>.Node<string>("a");
+            Tree.Node node = new Tree.Node("a");
             node.Add("b");
 
             Assert.AreEqual(1, node.Children.Count);
@@ -68,7 +67,7 @@ namespace Trees
         [Test]
         public void BreadthFirstTraverse()
         {
-            tree.Root = new Tree<string>.Node<string>("a");
+            tree.Root = new Tree.Node("a");
             tree.Root.Add("b");
             tree.Root.Add("c");
             tree.Root.Children[0].Add("d");
@@ -82,7 +81,7 @@ namespace Trees
         [Test]
         public void DepthFirstTraverse()
         {
-            tree.Root = new Tree<string>.Node<string>("a");
+            tree.Root = new Tree.Node("a");
             tree.Root.Add("b");
             tree.Root.Add("d");
             tree.Root.Children[0].Add("c");
@@ -93,6 +92,6 @@ namespace Trees
         /// <summary>
         /// Tree.
         /// </summary>
-        private Tree<string> tree;
+        private Tree tree;
     }
 }
