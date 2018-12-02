@@ -306,6 +306,35 @@ namespace LinkedLists
         }
 
         /// <summary>
+        /// Detects whether the linked list is a circular linked list.
+        /// </summary>
+        /// <param name="list">Linked list to do detectio on.</param>
+        /// <returns>True if the list is circulr; false otherwise.</returns>
+        public bool IsCircular()
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("LinkedList is empty");
+            }
+
+            Node slow = head;
+            Node fast = head;
+
+            while (fast.Next != null && fast.Next.Next != null)
+            {
+                slow = slow.Next;
+                fast = fast.Next.Next;
+
+                if (slow == fast)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
         /// Head of the linked list.
         /// </summary>
         private Node head;
