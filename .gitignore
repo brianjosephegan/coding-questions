@@ -12,8 +12,10 @@ FindingVowels/bin/**
 FindingVowels/obj/**
 FizzBuzz/bin/**
 FizzBuzz/obj/**
-IntegerReversal/obj/**
 IntegerReversal/bin/**
+IntegerReversal/obj/**
+LinkedLists/bin/**
+LinkedLists/obj/**
 MaxChars/obj/**
 MaxChars/bin/**
 MergeSort/bin/**

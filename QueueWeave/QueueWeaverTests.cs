@@ -8,6 +8,9 @@ using NUnit.Framework;
 
 namespace QueueWeave
 {
+    /// <summary>
+    /// Tests for QueueWeaver class.
+    /// </summary>
     [TestFixture]
     class QueueWeaverTests
     {

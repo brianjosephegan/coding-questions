@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceCapitalization", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueWeave", "QueueWeave\QueueWeave.csproj", "{0BD53702-91B3-4782-A966-3A310D613A1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{6A831B11-9942-4669-92AA-6C4E11F00D94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{0BD53702-91B3-4782-A966-3A310D613A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD53702-91B3-4782-A966-3A310D613A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD53702-91B3-4782-A966-3A310D613A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A831B11-9942-4669-92AA-6C4E11F00D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A831B11-9942-4669-92AA-6C4E11F00D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A831B11-9942-4669-92AA-6C4E11F00D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A831B11-9942-4669-92AA-6C4E11F00D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
