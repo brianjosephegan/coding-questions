@@ -335,6 +335,30 @@ namespace LinkedLists
         }
 
         /// <summary>
+        /// Find the node at the center of the linked list and returns its data.
+        /// </summary>
+        /// <param name="list">List to find midpoint of.</param>
+        /// <returns>Data held by node at the center.</returns>
+        public object FindMidpoint()
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("LinkedList is empty");
+            }
+
+            Node slow = head;
+            Node fast = head;
+
+            while (fast.Next != null && fast.Next.Next != null)
+            {
+                slow = slow.Next;
+                fast = fast.Next.Next;
+            }
+
+            return slow.Data;
+        }
+
+        /// <summary>
         /// Head of the linked list.
         /// </summary>
         private Node head;
