@@ -20,6 +20,8 @@ FizzBuzz/bin/**
 FizzBuzz/obj/**
 IntegerReversal/bin/**
 IntegerReversal/obj/**
+LevelWidth/bin/**
+LevelWidth/obj/**
 LinkedLists/bin/**
 LinkedLists/obj/**
 MaxChars/obj/**

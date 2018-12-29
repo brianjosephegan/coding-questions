@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingMidpoint", "FindingM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTrees", "BinarySearchTrees\BinarySearchTrees.csproj", "{9A665005-35F9-4603-9F7B-51B6E3657A0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelWidth", "LevelWidth\LevelWidth.csproj", "{B1A1C4BD-F8E1-473E-BEDB-8B33FC176DEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{9A665005-35F9-4603-9F7B-51B6E3657A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A665005-35F9-4603-9F7B-51B6E3657A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A665005-35F9-4603-9F7B-51B6E3657A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A1C4BD-F8E1-473E-BEDB-8B33FC176DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A1C4BD-F8E1-473E-BEDB-8B33FC176DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A1C4BD-F8E1-473E-BEDB-8B33FC176DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A1C4BD-F8E1-473E-BEDB-8B33FC176DEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
