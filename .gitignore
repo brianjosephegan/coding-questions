@@ -36,6 +36,8 @@ PrintingSteps/bin/**
 PrintingSteps/obj/**
 Queues/bin/**
 Queues/obj/**
+QueueStacks/bin/**
+QueueStacks/obj/**
 QueueWeave/bin/**
 QueueWeave/obj/**
 SelectionSort/bin/**
