@@ -359,6 +359,37 @@ namespace LinkedLists
         }
 
         /// <summary>
+        /// Finds the node n nodes from the end of the linked list and returns its data.
+        /// </summary>
+        /// <param name="n">Number of nodes from last to go.</param>
+        /// <returns>Data held by node n nodes from last.</returns>
+        public object FromLast(int n)
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("LinkedList is empty");
+            }
+
+            Node slow = head;
+            Node fast = head;
+
+            while (n > 0)
+            {
+                fast = fast.Next;
+                n--;
+            }
+
+            while (fast.Next != null)
+            {
+                fast = fast.Next;
+                slow = slow.Next;
+            }
+
+
+            return slow.Data;
+        }
+
+        /// <summary>
         /// Head of the linked list.
         /// </summary>
         private Node head;
